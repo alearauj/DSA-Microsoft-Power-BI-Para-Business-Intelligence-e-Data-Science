@@ -21,4 +21,9 @@ A coluna chamada Disponivel_Hora_Extra está preenchida com dados "S" ou "N". Fo
 
 7 - Qual o nível de envolvimento dos funcionários no trabalho considerando 4 categorias: Ruim, Baixo, Médio e Alto?
 
-8 - Este item não deveestar no Dashboard,mas precisa ser calculado:Qualo total e o percentual de funcionários que devem receber promoção? Considere a coluna “Anos Desde a última Promoção” com a seguinte regra: Se o funcionário tiver 5 anos ou mais desde  a última  promoção,  deveter  a  promoção  considerada.  Caso  contrário,apromoção não deve ser considerada agora.
+![image](https://github.com/alearauj/DSA-Microsoft-Power-BI-Para-Business-Intelligence-e-Data-Science/assets/98029951/f2483b17-067a-4645-9d9d-0b397358e226)
+
+
+
+
+8 - Este item não deve estar no Dashboard, mas precisa ser calculado: Qualo total e o percentual de funcionários que devem receber promoção? Considere a coluna “Anos Desde a última Promoção” com a seguinte regra: Se o funcionário tiver 5 anos ou mais desde  a última  promoção,  deveter  a  promoção  considerada.  Caso  contrário,apromoção não deve ser considerada agora.

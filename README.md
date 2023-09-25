@@ -15,7 +15,7 @@ O projeto tem como objetivo responder as seguintes perguntas de negócio:
 
 5 - Qual o total de funcionários por função?
 
-6 - Qual o percentual defuncionários disponíveis para fazer hora extra?
+6 - Qual o percentual de funcionários disponíveis para fazer hora extra?
 
 7 - Qual onível de envolvimento dos funcionários no trabalhoconsiderando 4 categorias: Ruim, Baixo, Médio e Alto?
 

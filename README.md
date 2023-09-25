@@ -27,6 +27,8 @@ Percentuais
 
 4 - Qual a média salarial mensal?
 
+SalarioMedio = AVERAGE(DatasetRH[Salario_Mensal])
+
 5 - Qual o total de funcionários por função?
 
 6 - Qual o percentual de funcionários disponíveis para fazer hora extra?
@@ -40,4 +42,14 @@ A coluna chamada Disponivel_Hora_Extra está preenchida com dados "S" ou "N". Fo
 
 
 
-8 - Este item não deve estar no Dashboard, mas precisa ser calculado: Qualo total e o percentual de funcionários que devem receber promoção? Considere a coluna “Anos Desde a última Promoção” com a seguinte regra: Se o funcionário tiver 5 anos ou mais desde  a última  promoção,  deveter  a  promoção  considerada.  Caso  contrário,apromoção não deve ser considerada agora.
+8 - Este item não deve estar no Dashboard, mas precisa ser calculado: Qual o total e o percentual de funcionários que devem receber promoção? Considere a coluna “Anos Desde a última Promoção” com a seguinte regra: Se o funcionário tiver 5 anos ou mais desde  a última  promoção,  deve ter  a  promoção  considerada.  Caso  contrário,apromoção não deve ser considerada agora.
+
+= Table.AddColumn(#"Colunas Reordenadas", "promocao", each if [Anos_Desde_Ultima_Promocao] >= 5 then "Considerar promoção" else if [Anos_Desde_Ultima_Promocao] < 5 then "Não considerar promoção" else null)
+
+TotalFuncPromover = CALCULATE([TotalFunc], DatasetRH[promocao] = "Considerar promoção")
+
+TotalFuncNaoPromover = CALCULATE([TotalFunc], DatasetRH[promocao] = "Não considerar promoção")
+
+% Promover = DIVIDE([TotalFuncPromover], [TotalFunc],0)
+
+% NaoPromover = DIVIDE([TotalFuncNaoPromover], [TotalFunc],0)

@@ -7,9 +7,23 @@ O projeto tem como objetivo responder as seguintes perguntas de negócio:
 
 1 - Qual o total de funcionários atualmente na empresa?
 
+TotalFunc = COUNTROWS(DatasetRH)
+
 2 - Qual o tempo médio de experiência dos funcionários (em anos)?
 
 3 - Qual o total e percentual de funcionários do gênero masculino e feminino?
+
+Totais
+
+TotalFeminino = CALCULATE([TotalFunc], DatasetRH[Genero] = "Feminino")
+
+TotalMasculino = CALCULATE([TotalFunc], DatasetRH[Genero] = "Masculino")
+
+Percentuais
+
+% Feminino = DIVIDE([TotalFeminino],[TotalFunc])
+
+% Masculino = DIVIDE([TotalMasculino],[TotalFunc],0)
 
 4 - Qual a média salarial mensal?
 

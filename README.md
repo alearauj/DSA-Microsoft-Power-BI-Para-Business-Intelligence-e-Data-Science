@@ -17,6 +17,6 @@ O projeto tem como objetivo responder as seguintes perguntas de negócio:
 
 6 - Qual o percentual de funcionários disponíveis para fazer hora extra?
 
-7 - Qual onível de envolvimento dos funcionários no trabalhoconsiderando 4 categorias: Ruim, Baixo, Médio e Alto?
+7 - Qual o nível de envolvimento dos funcionários no trabalhoconsiderando 4 categorias: Ruim, Baixo, Médio e Alto?
 
 8 - Este item não deveestar no Dashboard,mas precisa ser calculado:Qualo total e o percentual de funcionários que devem receber promoção? Considere a coluna “AnosDesde a última Promoção” com a seguinte regra: Se o funcionário tiver 5 anos ou mais desde  a última  promoção,  deveter  a  promoção  considerada.  Caso  contrário,apromoção não deve ser considerada agora.

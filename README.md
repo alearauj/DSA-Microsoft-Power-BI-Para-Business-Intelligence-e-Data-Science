@@ -37,7 +37,8 @@ A coluna chamada Disponivel_Hora_Extra está preenchida com dados "S" ou "N". Fo
 
 7 - Qual o nível de envolvimento dos funcionários no trabalho considerando 4 categorias: Ruim, Baixo, Médio e Alto?
 
-![image](https://github.com/alearauj/DSA-Microsoft-Power-BI-Para-Business-Intelligence-e-Data-Science/assets/98029951/f2483b17-067a-4645-9d9d-0b397358e226)
+<img width="591" alt="image" src="https://github.com/alearauj/DSA-Microsoft-Power-BI-Para-Business-Intelligence-e-Data-Science/assets/98029951/d46bf702-53bf-4146-ba09-24cc1d7e7769">
+
 
 
 
